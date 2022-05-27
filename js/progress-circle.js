@@ -9,8 +9,8 @@ let options = {
     $(this).parent().find("span").text(String(stepValue.toFixed(2).substr(2)) + "%");
   });
   $(".js .bar").circleProgress({
-    value: 0.68
+    value: 0.90
   });
   $(".react .bar").circleProgress({
-    value: 0.75
+    value: 0.60
   });
